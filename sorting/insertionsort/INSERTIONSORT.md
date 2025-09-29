@@ -21,4 +21,3 @@ You split the cards into two groups: the sorted cards and the unsorted cards. Th
 
 > expand insertionsort code to cover also float, double
 > macro that autoselects the proper insertionsort invocation
-
