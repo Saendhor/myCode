@@ -3,17 +3,18 @@ Insertion sort is a simple sorting algorithm that works by iteratively inserting
 It is like sorting playing cards in your hands.
 You split the cards into two groups: the sorted cards and the unsorted cards. Then, you pick a card from the unsorted group and put it in the right place in the sorted group. 
 
+<blockquote>
 /*  PSEUDOCODE
 
-0    insertionsort(A)
-1        for j ← 2 to length[A]
-2            key ← A[j]
-3            //Insert A[j] in the already ordered sequence A[1 ... j-1]
-4            i ← j-1
-5            while i > 0 and A[i] > key
-6                A[i+1] ← A[i]
-7                i ← i-1
-8            A[i+1] ← key
+0    insertionsort(A) \
+1        for j ← 2 to length[A] \
+2            key ← A[j] \
+3            //Insert A[j] in the already ordered sequence A[1 ... j-1] \
+4            i ← j-1 \
+5            while i > 0 and A[i] > key \
+6                A[i+1] ← A[i] \
+7                i ← i-1 \
+8            A[i+1] ← key \
 
 */
 
