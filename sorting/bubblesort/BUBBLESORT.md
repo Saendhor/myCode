@@ -3,6 +3,7 @@ comparing the current element with the one after it, swapping their values if ne
 These passes through the list are repeated until no swaps have to be performed during a pass, meaning that the list has become fully sorted.
 The algorithm, which is a comparison sort, is named for the way the larger elements "bubble" up to the top of the list.
 
+<blockquote>
 /*  PSEUDOCODE
 
 0    bubblesort(A)
@@ -16,7 +17,7 @@ The algorithm, which is a comparison sort, is named for the way the larger eleme
 8               break
 
 */
-
+</blockquote>
 #TODO LIST
 
 > expand insertionsort code to cover also float, double
