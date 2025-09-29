@@ -10,19 +10,6 @@ Here's a step-by-step explanation of how merge sort works:
 <blockquote>
 /* PSEUDOCODE
 
-0    MERGESORT(A, p, r) \
-1        if p < r \
-2            q ← floor((p+r) / 2) \
-3            MERGESORT(A, p, q) \
-4            MERGESORT(A, q+1, r) \
-5            MERGE(A, p, q, r) \
-
-*/
-</blockquote>
-
-<blockquote>
-/* PSEUDOCODE
-
 00    MERGE(A, p, q, r) \
 01        n ← q -p + 1 \
 02        m ← r - q \
@@ -44,6 +31,20 @@ Here's a step-by-step explanation of how merge sort works:
 
 */
 </blockquote>
+
+<blockquote>
+/* PSEUDOCODE
+
+0    MERGESORT(A, p, r) \
+1        if p < r \
+2            q ← floor((p+r) / 2) \
+3            MERGESORT(A, p, q) \
+4            MERGESORT(A, q+1, r) \
+5            MERGE(A, p, q, r) \
+
+*/
+</blockquote>
+
 #TODO LIST
 
 > expand insertionsort code to cover also float, double
