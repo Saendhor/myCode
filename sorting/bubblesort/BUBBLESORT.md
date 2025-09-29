@@ -4,17 +4,17 @@ These passes through the list are repeated until no swaps have to be performed d
 The algorithm, which is a comparison sort, is named for the way the larger elements "bubble" up to the top of the list.
 
 <blockquote>
-/*  PSEUDOCODE
+/*  PSEUDOCODE\
 
-0    bubblesort(A)
-1        for i ← 0 to length[A] - 1
-2           swapped  ← false
-3           for j ← 0 to length[A] - i - 1
-4               if A[j] > A[j + 1]
-5                   swap(A, j, j + 1)
-6                   swapped ← true
-7            if swapped == false
-8               break
+0    bubblesort(A)\
+1        for i ← 0 to length[A] - 1\
+2           swapped  ← false\
+3           for j ← 0 to length[A] - i - 1\
+4               if A[j] > A[j + 1]\
+5                   swap(A, j, j + 1)\
+6                   swapped ← true\
+7            if swapped == false\
+8               break\
 
 */
 </blockquote>
