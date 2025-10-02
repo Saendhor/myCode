@@ -21,5 +21,5 @@ The algorithm, which is a comparison sort, is named for the way the larger eleme
 </blockquote>
 #TODO LIST
 
-> expand insertionsort code to cover also float, double
-> macro that autoselects the proper insertionsort invocation
+> expand bubblesort code to cover also float, double
+> macro that autoselects the proper bubblesort invocation

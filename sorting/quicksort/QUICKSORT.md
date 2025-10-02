@@ -38,5 +38,5 @@ There are mainly three steps in the algorithm:
 </blockquote>
 #TODO LIST
 
-> expand insertionsort code to cover also float, double
-> macro that autoselects the proper insertionsort invocation
+> expand quicksort and partition code to cover also float, double
+> macro that autoselects the proper quicksort and partition invocation

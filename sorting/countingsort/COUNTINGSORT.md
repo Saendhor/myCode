@@ -10,11 +10,23 @@ then we can better sort the array using a standard comparison based sorting algo
 <blockquote>
 /*  PSEUDOCODE
 
-    COUNTINGSORT(A, K) \
-        BUILD-MAX-HEAP(A) \
-        for i ← length[A] downto 2 \
-            SWAP(A, 1, i) \
-            heap-size[A] ← heap-size[A] - 1 \
-            MAX-HEAPIFY(A, 1) \
+    COUNTINGSORT(A, k) \
+        n ← length(A) \
+        C ← new array(k)
+        for i ← 0 to k  // Initialize to 0
+            C[i] ← 0
+        for i ← 0 to n  // The slot of C that has as index the value of A gets incremented
+            C[A[i]] ← C[A[i]] + 1
+        for i ← 0 to k  // Cumulative amount of items before the number in C
+            C[i + 1] ← C[i + 1] + C[i]
+        B ← new array(n)
+        for i ← n - 1 to 0
+            B[ C[ A[i] ] ] ← A[i] //the slot of B is the number of items before given item A[i] stated in C
+            C[A[i]] ← C[A[i]] - 1 //decrease the amount of items since 1 has been placed
 */
 </blockquote>
+
+#TODO LIST
+
+> expand countingsort code to cover also float, double
+> macro that autoselects the proper countingsort invocation

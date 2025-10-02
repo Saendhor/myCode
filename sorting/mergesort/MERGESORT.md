@@ -47,5 +47,5 @@ Here's a step-by-step explanation of how merge sort works:
 
 #TODO LIST
 
-> expand insertionsort code to cover also float, double
-> macro that autoselects the proper insertionsort invocation
+> expand mergesort and merge code to cover also float, double
+> macro that autoselects the proper mergesort and merge invocation

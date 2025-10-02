@@ -20,5 +20,5 @@ Selection sort is noted for its simplicity and has performance advantages over m
 </blockquote>
 #TODO LIST
 
-> expand insertionsort code to cover also float, double
-> macro that autoselects the proper insertionsort invocation
+> expand selectionsort code to cover also float, double
+> macro that autoselects the proper selectionsort invocation

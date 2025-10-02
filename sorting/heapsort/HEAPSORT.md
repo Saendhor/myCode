@@ -60,5 +60,5 @@ Finally we get sorted array.
 </blockquote>
 #TODO LIST
 
-> expand insertionsort code to cover also float, double
-> macro that autoselects the proper insertionsort invocation
+> expand heapsort and relative code to cover also float, double
+> macro that autoselects the proper heapsort and relative code invocation
