@@ -1,4 +1,4 @@
-#Merge Sort
+# Merge Sort
 Merge Sort is a divide-and-conquer, comparison-based sorting algorithm.
 Most implementations of merge sort are stable.
 Here's a step-by-step explanation of how merge sort works:
@@ -45,7 +45,7 @@ Here's a step-by-step explanation of how merge sort works:
 */
 </blockquote>
 
-#TODO LIST
+# TODO LIST
 
 > expand mergesort and merge code to cover also float, double
 > macro that autoselects the proper mergesort and merge invocation

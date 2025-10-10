@@ -1,4 +1,4 @@
-#Selection Sort
+# Selection Sort
 Selection sort is an in-place comparison sorting algorithm.
 It has a O(n²) time complexity, which makes it inefficient on large lists,
 and generally performs worse than the similar insertion sort.
@@ -18,7 +18,8 @@ Selection sort is noted for its simplicity and has performance advantages over m
 
 */
 </blockquote>
-#TODO LIST
+
+# TODO LIST
 
 > expand selectionsort code to cover also float, double
 > macro that autoselects the proper selectionsort invocation

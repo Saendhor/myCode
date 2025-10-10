@@ -1,4 +1,4 @@
-#Quick sort
+# Quick sort
 QuickSort is a sorting algorithm based on the Divide and Conquer that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
 It works on the principle of divide and conquer, breaking down the problem into smaller sub-problems.
 There are mainly three steps in the algorithm:
@@ -36,7 +36,8 @@ There are mainly three steps in the algorithm:
 
 */
 </blockquote>
-#TODO LIST
+
+# TODO LIST
 
 > expand quicksort and partition code to cover also float, double
 > macro that autoselects the proper quicksort and partition invocation

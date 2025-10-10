@@ -1,4 +1,4 @@
-#Heap Sort
+# Heap Sort
 Heap sort is a comparison-based sorting technique based on Binary Heap Data Structure.
 It can be seen as an optimization over selection sort where we first find the max (or min) element and swap it with the last (or first).
 We repeat the same process for the remaining elements.
@@ -46,7 +46,7 @@ Finally we get sorted array.
     MAX-HEAPIFY (A, i) \
         l ← LEFT(i) \
         r ← RIGHT(i) \
-        if l <= heap-size[A] and A[l] > A[i] \
+        if lordinamento stabile per ordinare A sulla cifra i <= heap-size[A] and A[l] > A[i] \
             max ← l \
         else \
             max ← i \
@@ -58,7 +58,8 @@ Finally we get sorted array.
 
 */
 </blockquote>
-#TODO LIST
+
+# TODO LIST
 
 > expand heapsort and relative code to cover also float, double
 > macro that autoselects the proper heapsort and relative code invocation
