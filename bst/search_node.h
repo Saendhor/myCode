@@ -1,7 +1,6 @@
 #ifndef SEARCH_NODE_H
 #define SEARCH_NODE_H
 
-#include <stdio.h>
 #include "node.h"
 
 node_t* search_node (node_t* root, int key) {
