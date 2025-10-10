@@ -10,7 +10,6 @@ int findmax_i(int * input) {
             max = input[i];
         }
     }
-
     return max;
 }
 
