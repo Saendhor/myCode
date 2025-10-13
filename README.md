@@ -3,5 +3,5 @@ A collection of code I wrote to better my programming skills.
 
 # TODO List
 
-    - enrich bst/README.md contents;
+    - enrich several README.md contents;
     - Implement BucketSort
